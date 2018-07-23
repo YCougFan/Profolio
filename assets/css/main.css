@@ -1,12 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
 
-/*
-	Highlights by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -21,8 +15,6 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -31,6 +23,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+
 }
 
 ol, ul {
@@ -59,8 +52,6 @@ input::-moz-focus-inner {
 input, select, textarea {
 	-moz-appearance: none;
 	-webkit-appearance: none;
-	-ms-appearance: none;
-	appearance: none;
 }
 
 /* Basic */
@@ -85,11 +76,9 @@ input, select, textarea {
 	html.is-preload *, html.is-preload *:before, html.is-preload *:after {
 		-moz-animation: none !important;
 		-webkit-animation: none !important;
-		-ms-animation: none !important;
 		animation: none !important;
 		-moz-transition: none !important;
 		-webkit-transition: none !important;
-		-ms-transition: none !important;
 		transition: none !important;
 	}
 
@@ -117,9 +106,8 @@ input, select, textarea {
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		border-bottom: dotted 0.083em;
 		color: #8cd1a8;
 		text-decoration: none;
 	}
@@ -158,13 +146,13 @@ input, select, textarea {
 		}
 
 	h1 {
-		padding: 10px 0 0 0;
+		padding: 0.833em 0 0 0;
 	}
 
 	h2 {
 		font-size: 1.75em;
 		line-height: 1.5em;
-		margin: 20px 0 0 0;
+		margin: 1.667em 0 0 0;
 	}
 
 	h3 {
@@ -201,7 +189,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px #dddddd;
+		border-bottom: solid 0.083em #dddddd;
 		margin: 2em 0;
 	}
 
@@ -215,12 +203,16 @@ input, select, textarea {
 		font-style: italic;
 		font-size: 1.5em;
 		font-weight: bolder;
-		border: solid white 1px;
+		border: solid white 0.083em;
 		margin: 130px 350px 60px 350px;
-		padding: 10px;
+		padding: 0.833em;
 		max-width: 100%;
 		position: relative;
 
+	}
+
+	.info {
+		font-size: 1em;
 	}
 
 	code {
@@ -294,7 +286,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 81.667em) {
 
 			.container {
 				width: 80% !important;
@@ -303,7 +295,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 40em) {
 
 			.container {
 				width: 100% !important;
@@ -554,7 +546,7 @@ input, select, textarea {
 					padding-top: 3em;
 				}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 140em) {
 
 			.row {
 				display: flex;
@@ -799,7 +791,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 81.667em) {
 
 			.row {
 				display: flex;
@@ -1044,7 +1036,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 61.333em) {
 
 			.row {
 				display: flex;
@@ -1289,7 +1281,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 40em) {
 
 			.row {
 				display: flex;
@@ -2025,7 +2017,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: inset 0 0 0 2px #8cd1a8;
+			box-shadow: inset 0 0 0 0.167em #8cd1a8;
 		}
 
 	select {
@@ -2122,7 +2114,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: inset 0 0 0 2px #8cd1a8;
+			box-shadow: inset 0 0 0 0.167em #8cd1a8;
 		}
 
 	input[type="radio"] + label:before {
@@ -2152,7 +2144,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		border: solid 2px #dddddd;
+		border: solid 0.167em #dddddd;
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -2280,7 +2272,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 1px #dddddd;
+				border-top: solid 0.083em #dddddd;
 				padding: 0.5em 0;
 			}
 
@@ -2334,14 +2326,14 @@ input, select, textarea {
 			}
 
 			ul.icons-grid li:nth-child(2n + 1) {
-				box-shadow: inset -1px 0 0 0 #dddddd, 1px 0 0 0 #dddddd;
+				box-shadow: inset -0.083em 0 0 0 #dddddd, 0.083em 0 0 0 #dddddd;
 			}
 
 			ul.icons-grid li:nth-child(2n + 3):before {
 				background: #dddddd;
 				content: '';
 				display: block;
-				height: 2px;
+				height: 0.167em;
 				margin-top: -3em;
 				position: absolute;
 				width: 100%;
@@ -2424,7 +2416,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 40em) {
 
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
@@ -2488,7 +2480,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px #dddddd;
+			border: solid 0.083em #dddddd;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -2514,7 +2506,7 @@ input, select, textarea {
 		}
 
 		table tfoot {
-			border-top: solid 2px #dddddd;
+			border-top: solid 0.167em #dddddd;
 		}
 
 		table.alt {
@@ -2522,17 +2514,17 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px #dddddd;
+				border: solid 0.083em #dddddd;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
 
 				table.alt tbody tr td:first-child {
-					border-left-width: 1px;
+					border-left-width: 0.083em;
 				}
 
 			table.alt tbody tr:first-child td {
-				border-top-width: 1px;
+				border-top-width: 0.083em;
 			}
 
 			table.alt thead {
@@ -2561,7 +2553,7 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 0;
 		border: 0;
-		box-shadow: inset 0 0 0 2px #dddddd;
+		box-shadow: inset 0 0 0 0.167em #dddddd;
 		color: #61686b !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2723,7 +2715,7 @@ input, select, textarea {
 		.main .container {
 			padding: 5em 2.5em 8em 2.5em ;
 			background: rgba(255, 255, 255, 0.95);
-			box-shadow: inset 0 1px 0 0 #dddddd;
+			box-shadow: inset 0 0.083em 0 0 #dddddd;
 		}
 
 			.main .container:before {
@@ -2731,14 +2723,14 @@ input, select, textarea {
 				content: '';
 				display: inline-block;
 				vertical-align: middle;
-				width: 1px;
+				width: 0.083em;
 			}
 
 			.main .container .content {
 				display: inline-block;
-				margin-right: 1px;
+				margin-right: 0.083em;
 				vertical-align: middle;
-				width: calc(100% - 10px);
+				width: calc(100% - 0.833em);
 			}
 
 		.goto-next {
@@ -2838,6 +2830,11 @@ input, select, textarea {
 
 /* Footer */
 
+	.goodbye {
+		font-size: 2em;
+		font-weight: bolder;
+	}
+
 	#footer {
 		min-height: 100vh;
 		padding: 0 0 12em 0;
@@ -2848,7 +2845,7 @@ input, select, textarea {
 		#footer .container {
 			padding: 5em 2.5em 3em 2.5em ;
 			background: rgba(255, 255, 255, 0.95);
-			box-shadow: inset 0 1px 0 0 #dddddd;
+			box-shadow: inset 0 0.083em 0 0 #dddddd;
 		}
 
 		#footer footer {
@@ -2879,7 +2876,7 @@ input, select, textarea {
 			}
 
 				#footer footer .copyright li {
-					border-left: solid 1px rgba(255, 255, 255, 0.2);
+					border-left: solid 0.083em rgba(255, 255, 255, 0.2);
 					display: inline-block;
 					margin: 0 0 0 1em;
 					padding: 0 0 0 1em;
@@ -2893,7 +2890,7 @@ input, select, textarea {
 
 /* Large */
 
-	@media screen and (max-width: 1680px) {
+	@media screen and (max-width: 140em) {
 
 		/* Basic */
 
@@ -2905,7 +2902,7 @@ input, select, textarea {
 
 /* Medium */
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 81.667em) {
 
 		/* Main BG */
 
@@ -2961,7 +2958,7 @@ input, select, textarea {
 
 /* Small */
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 61.333em) {
 
 		/* Basic */
 
@@ -3019,12 +3016,12 @@ input, select, textarea {
 
 /* XSmall */
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 40em) {
 
 		/* Basic */
 
 			html, body {
-				min-width: 320px;
+				min-width: 26.667em;
 			}
 
 		/* List */
@@ -3058,7 +3055,7 @@ input, select, textarea {
 					}
 
 			ul.icons-grid li {
-				box-shadow: inset 0 1px 0 0 #dddddd !important;
+				box-shadow: inset 0 0.083em 0 0 #dddddd !important;
 				float: none;
 				margin: 2em 0 0 0;
 				padding: 2em 0 0 0;
