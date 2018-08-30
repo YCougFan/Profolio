@@ -207,8 +207,6 @@ input, select, textarea {
 		margin: 130px 350px 60px 350px;
 		padding: 0.833em;
 		max-width: 100%;
-		position: relative;
-
 	}
 
 	.info {
