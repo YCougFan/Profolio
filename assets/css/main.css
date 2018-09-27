@@ -152,7 +152,7 @@ input, select, textarea {
 	h2 {
 		font-size: 1.75em;
 		line-height: 1.5em;
-		margin: 1.667em 0 0 0;
+		margin: 1em 0 0 0;
 	}
 
 	h3 {
@@ -2824,6 +2824,15 @@ input, select, textarea {
 
 			#header .container .button {
 				min-width: 12em;
+			}
+
+			.navbar {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				display: block;
+				width: 60px;
+				position: fixed;
 			}
 
 /* Footer */
