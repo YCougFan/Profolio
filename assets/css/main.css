@@ -96,8 +96,11 @@ nav li a {
 }
 
 a:hover {
-	background-color: #6f7577;
+	background-color: #8cd1a8;
 }
+
+/* hides the navbar on mobile devices */
+@media only screen and (min-device-width: 0px) and (max-device-width: 720px) {nav {visibility:hidden;}}
 
 /* Basic */
 
@@ -253,6 +256,9 @@ a:hover {
 		padding: 0.833em;
 		max-width: 100%;
 	}
+
+	/* hides textbox on mobile devices */
+	@media only screen and (min-device-width: 0px) and (max-device-width: 720px) {.me-flex {visibility:hidden;}}
 
 	.info {
 		font-size: 1em;
