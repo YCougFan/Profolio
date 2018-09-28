@@ -54,6 +54,51 @@ input, select, textarea {
 	-webkit-appearance: none;
 }
 
+/* Navigational Bar */
+
+nav {
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+	padding: 0;
+	/* sets the nav links on top of each  */
+	display: block;
+	/* fixes the nav bar links in place */
+	position: fixed;
+	/* sets the nav bar to the front so they're clickable */
+	z-index: 1;
+}
+
+nav ul {
+    margin: 0 auto;
+    padding: 0;
+	width: 10%;
+}
+
+nav li {
+    background-color: #7d837e;
+    list-style-type: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 5px;
+	padding: 5px;	
+}
+
+nav li a {
+    color: white;
+    font-family: sans-serif;
+	text-decoration: none;
+}
+
+.navbar {
+	margin: 0;
+	font-weight: bold;
+}
+
+a:hover {
+	background-color: #6f7577;
+}
+
 /* Basic */
 
 	html {
@@ -2824,15 +2869,6 @@ input, select, textarea {
 
 			#header .container .button {
 				min-width: 12em;
-			}
-
-			.navbar {
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-				display: block;
-				width: 60px;
-				position: fixed;
 			}
 
 /* Footer */
